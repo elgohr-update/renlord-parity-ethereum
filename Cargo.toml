@@ -131,3 +131,6 @@ members = [
 	"ethcore/wasm/run",
 	"evmbin",
 ]
+
+[dependencies.rust-usdt]
+git = "https://github.com/Fiedzia/rust-usdt"

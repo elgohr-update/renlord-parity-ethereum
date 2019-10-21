@@ -16,6 +16,12 @@
 
 //! VM Instructions list and utility functions
 
+//! for ebpf probes
+#![feature(asm)]
+#![feature(plugin)]
+#![plugin(rust_usdt)]
+
+
 pub use self::Instruction::*;
 
 macro_rules! enum_with_from_u8 {

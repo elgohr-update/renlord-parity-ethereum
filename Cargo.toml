@@ -79,6 +79,7 @@ term_size = "0.3"
 textwrap = "0.11.0"
 toml = "0.5.6"
 verification = { path = "ethcore/verification" }
+probe = "0.1.6"
 
 [build-dependencies]
 rustc_version = "0.2"
@@ -131,6 +132,3 @@ members = [
 	"ethcore/wasm/run",
 	"evmbin",
 ]
-
-[dependencies.rust-usdt]
-git = "https://github.com/Fiedzia/rust-usdt"
